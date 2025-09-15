@@ -3,7 +3,7 @@
 # AIM
 To develop a Django application to store and retrieve data from a car dealership database using Object Relational Mapping(ORM).
 
-# ENTITY RELATIONSHIP DIAGRAM
+
 ## DESIGN STEPS
 ## STEP 1:
 Clone the problem from GitHub
@@ -21,7 +21,7 @@ Execute Django admin and create details for 10 books
 '''
 admin.py
 from django.contrib import admin
-# Register your models here.
+
 from .models import car_DB,car_DBAdmin
 admin.site.register(car_DB,car_DBAdmin) 
 
